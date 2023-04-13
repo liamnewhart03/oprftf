@@ -69,11 +69,11 @@ header {
 .schedule {
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 
 .schedule table {
   border: 2px solid navy;
+  margin: 20px 0;
 }
 
 .schedule .next td {
@@ -82,17 +82,21 @@ header {
   border-radius: 5px;
 }
 
+.schedule .teams {
+  column-width: 100px;
+}
+
 table {
   background-color: white;
   padding: 10px;
-  margin: 20px;
   border-radius: 5px;
 }
 
 table th {
-  column-width: 150px;
+  column-width: auto;
   background-color: orange;
   border-radius: 5px;
+  text-align: center;
 }
 
 table td {
@@ -109,6 +113,7 @@ table td {
 
 .p_list table {
   border: 2px solid navy;
+  margin: 20px 0;
 }
 
 .p_list table .time {
