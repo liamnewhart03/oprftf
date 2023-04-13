@@ -71,6 +71,10 @@ header {
   justify-content: center;
 }
 
+.schedule table {
+  border: 2px solid navy;
+}
+
 .schedule .next {
   background-color: rgba(0, 0, 128, 0.5);
 }
