@@ -76,7 +76,9 @@ header {
 }
 
 .schedule .next td {
-  background-color: rgba(0, 0, 128, 0.5);
+  background-color: navy;
+  color: white;
+  border-radius: 5px;
 }
 
 table {
