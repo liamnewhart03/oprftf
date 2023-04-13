@@ -75,7 +75,7 @@ header {
   border: 2px solid navy;
 }
 
-.schedule .next {
+.schedule .next td {
   background-color: rgba(0, 0, 128, 0.5);
 }
 
