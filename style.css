@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    background-color: gainsboro;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: navy;
+}
+
+.logo {
+    margin: 10px 30px;
+    cursor: pointer;
+    background-color: navy;
+}
+
+.logo h1 {
+    font-size: 50px;
+    background-color: navy;
+}
+
+.logo h3 {
+    font-size: 30px;
+    background-color: navy;
+}
+
+.logo h1, .logo h3{
+    display: inline-block;
+    color: orange;
+    -webkit-text-stroke: 1px white;
+}
+
+.nav_links1, .nav_links2 {
+    list-style: none;
+    background-color: navy;
+}
+
+.nav_links1 li, .nav_links2 li {
+    display: inline-block;
+    padding: 10px, 30px;
+    background-color: navy;
+}
+
+.nav_links1 li a, .nav_links2 li a {
+    font-weight: 900;
+    margin: 0 10px;
+    color: white;
+    background-color: navy;
+}
+
+.nav_links1 li a:hover, .nav_links2 li a:hover {
+    color: orange;
+}
+
+.schedule {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+table th {
+    column-width: 150px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+table td {
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+
+.p_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.p_list table {
+    border: 2px solid navy;
+}
+
+.p_list table .time {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.p_list h1 {
+    margin: 20px 0;
+}
+
+.p_list h1 {
+    background-color: navy;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
